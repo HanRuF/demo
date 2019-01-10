@@ -20,6 +20,7 @@ public class TestContiller {
         mv.setViewName("index.html");
         mv.addObject("name", "主分支");
         System.out.println("分支打印合并");
+
         return mv;
     }
 }
