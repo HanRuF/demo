@@ -18,7 +18,7 @@ public class TestContiller {
     public ModelAndView index (){
         ModelAndView mv=new ModelAndView();
         mv.setViewName("index.html");
-        mv.addObject("name", "liyafeisss");
+        mv.addObject("name", "liyafeissvvvs");
         return mv;
     }
 }
