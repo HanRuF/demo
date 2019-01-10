@@ -16,6 +16,7 @@ public class TestContiller {
 
     @RequestMapping(value = "/index")
     public ModelAndView index (){
+        //分支删除代码
         ModelAndView mv=new ModelAndView();
         mv.setViewName("index.html");
         mv.addObject("name", "主分支");
